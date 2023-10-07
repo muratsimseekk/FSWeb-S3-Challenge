@@ -445,9 +445,7 @@ footer .copyright p {
 
 /* mobile media query */
 @media (max-width: 428px) {
-  .container {
-    padding: 1rem;
-  }
+
   /* header section */
   header div h1 {
     color: white;
@@ -483,9 +481,6 @@ footer .copyright p {
 
   .gallery .img-div img {
     width: 92%;
-    height: 28%;
-    border-radius: 1rem;
-    object-fit: cover;
   }
   /* about us section */
 
@@ -549,9 +544,21 @@ footer .copyright p {
     width: 100%;
     align-items: center;
   }
+
   footer .foot-left .label p {
     text-align: center;
     width: 100%;
+  }
+  footer .foot-left .mail-bar{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+  }
+  footer .foot-left .mail-bar input{
+
+  }
+  footer .foot-left .mail-bar button{
+    
   }
   
 footer .foot-right {
