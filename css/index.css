@@ -93,6 +93,60 @@ header {
     background-repeat: no-repeat;
 }
 
+header .bc-opa{
+    background-color: black;
+    opacity: 0.8;
+}
+
+
+
+header div h1{
+    color: white;
+    text-align: center;
+}
+
+header .nav{
+    display: flex;
+    justify-content: space-evenly;
+    opacity: 1;
+}
+
+header .nav a{
+    color: white;
+}
+
+header .media{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+
+}
+
+header .media .fa{
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 2rem 0rem;
+}
+
+/* Facebook */
+.fa-facebook {
+    background: white;
+    color: black;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: white;
+    color: black;
+  }
+
+  .fa-instagram{
+    background: white;
+    color: black;
+  }
+
 /* spacers */
 .spacer {
     width: 100%;
