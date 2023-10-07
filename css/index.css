@@ -258,20 +258,18 @@ header .media .fa {
   height: 10%;
 }
 
-.gallery .img-div{
-    width: 100%;
-    height: 85%;
+.gallery .img-div {
+  width: 100%;
+  height: 85%;
 }
 
-.gallery .img-div img{
-    width: 25%;
-    height: 28%;
-    border-radius: 1rem;
-    margin: 1rem;
-    object-fit: cover;
+.gallery .img-div img {
+  width: 25%;
+  height: 28%;
+  border-radius: 1rem;
+  margin: 1rem;
+  object-fit: cover;
 }
-
-
 
 /* about us section */
 .about {
@@ -279,8 +277,8 @@ header .media .fa {
   height: 90vh;
   text-align: center;
   background-image: url("../img/staff-cooks.jpg");
-  background-size:cover;
-  background-position:top;
+  background-size: cover;
+  background-position: top;
   background-repeat: no-repeat;
 }
 
@@ -298,30 +296,27 @@ header .media .fa {
   width: 100%;
 }
 
-.about-container .text{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.about-container .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 #bartender {
-    display: flex;
-    justify-content: center;
-    text-align:center;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
-.about-container .text h3{
-    font-size: 3.5rem;
+.about-container .text h3 {
+  font-size: 3.5rem;
 }
 
-.about-container .text p{
-    
-    text-align: center;
-    width: 70%;
-    font-size: 2rem;
+.about-container .text p {
+  text-align: center;
+  width: 70%;
+  font-size: 2rem;
 }
-
-
 
 /* contact us section */
 .contact {
@@ -331,6 +326,7 @@ header .media .fa {
   background-position: center;
   background-repeat: no-repeat;
   background-color: rgb(0, 4, 17);
+  color: white;
 }
 
 .contact-container {
@@ -368,6 +364,14 @@ header .media .fa {
 
 .contacts {
   width: 25%;
+}
+
+#phone {
+  color: white;
+}
+
+#email {
+  color: white;
 }
 
 /* footer section */
