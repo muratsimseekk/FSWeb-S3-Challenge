@@ -367,7 +367,6 @@ header .media .fa {
   width: 30%;
 }
 
-
 .con-info > a {
   width: 100%;
 }
@@ -410,28 +409,25 @@ footer .foot-left .mail-bar {
   height: 50%;
 }
 
-
 footer .foot-right {
   height: 100%;
   width: 65%;
 }
 
 footer .navbar {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
-footer .navbar a{
-    color: white;
+footer .navbar a {
+  color: white;
 }
 
-footer .copyright p{
-    display: flex;
-    justify-content: flex-end;
-    font-size: 2rem;
+footer .copyright p {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 2rem;
 }
-
-
 
 /* mobile media query */
 @media (max-width: 428px) {
