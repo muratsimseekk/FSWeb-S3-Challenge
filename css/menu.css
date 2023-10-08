@@ -275,6 +275,8 @@ article h3 {
   display: flex;
   justify-content: space-between;
 }
+
+
 /* footer section */
 footer {
   width: 100%;
@@ -399,12 +401,12 @@ footer .copyright p {
     align-items: center;
     margin: auto;
     text-align: center;
-    border-bottom: 1rem solid black;
+    border-bottom: 0.8rem solid black;
   }
-  /* 
-  .menu-section .menu-item :nth-last-child(-n + 1) {
+  
+  .menu-section .menu-item:last-child {
     border-bottom: none;
-  } */
+  }
 
   /* footer section */
    /* footer section */
