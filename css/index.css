@@ -445,7 +445,6 @@ footer .copyright p {
 
 /* mobile media query */
 @media (max-width: 428px) {
-
   /* header section */
   header div h1 {
     color: white;
@@ -549,19 +548,17 @@ footer .copyright p {
     text-align: center;
     width: 100%;
   }
-  footer .foot-left .mail-bar{
+  footer .foot-left .mail-bar {
     display: flex;
     flex-direction: column;
     width: 80%;
   }
-  footer .foot-left .mail-bar input{
+  footer .foot-left .mail-bar input {
+  }
+  footer .foot-left .mail-bar button {
+  }
 
-  }
-  footer .foot-left .mail-bar button{
-    
-  }
-  
-footer .foot-right {
+  footer .foot-right {
     width: 100%;
   }
 
@@ -571,7 +568,7 @@ footer .foot-right {
     align-items: center;
   }
   footer .copyright p {
-    justify-content:center;
+    justify-content: center;
     font-size: 1rem;
   }
 }
