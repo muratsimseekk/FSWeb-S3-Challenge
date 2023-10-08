@@ -265,12 +265,12 @@ article h3 {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  background-color: rgb(0, 4, 17, 0.8);
+  background-color: rgb(0, 4, 17,0.8);
 }
+
 .menu-container > * {
   width: 40%;
 }
-
 .menu-section > .menu-item {
   display: flex;
   justify-content: space-between;
